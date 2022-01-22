@@ -1,9 +1,37 @@
+
+body{
+  font-family: Poppins;
+  margin-left: 20px;
+}
+
+/* header section styling*/
 h3.logo{
+  display: inline;  
+  margin-right: 50%;   
+}
+
+.inline{
   display: inline;
+  padding: 20px;  
 }
-.cont1{
-  border: 1px solid black;
+
+span{
+  color: yellow;
 }
-.cont2{
-  border: 1px solid black;
+div.header{
+  background-color: tomato;
 }
+
+/*section 2 styling*/
+
+div.left{  
+  float: left;
+}
+div.right{
+  background-color: yellow;
+  border: 1px solid blue;
+  float: right;
+}
+
+
+
