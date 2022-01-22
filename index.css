@@ -1,52 +1,50 @@
 body{
-  
-  margin: 20px;
-  font-style: "poppins";
-}
+  border: 1px solid red;  
+  margin: 30px;
+  font-style: "poppins";}
+
+/*header styling*/
 h2{
   display: inline; 
   font-weight: 800; 
-  font-style: italic; 
-}
+  font-style: italic;}
 span{
-  color: yellow;
-}
+  color: yellow;}
+
 h4{
   display: inline;
   float: right;
-}
+  margin: 50px;}
+
+/* section 2 styling
 div.cont{
-  display: block;
-  border: 1px solid black; 
+  width: 50;  
+ 
 }
 
-
+div.right{
+  float: right;  
+  background-color: aquamarine;  
+  
+}
 div.left{
-  display: inline;
-  float: center;
-  padding-right: 20px;;
-}
+  float: right;  
+  background-color: hotpink;*/
 
-div.cont2{
-  display: block;
-  background-color: turquoise;
-}
-
-
-}
+/*section 3 styling*/
 .one{
   float: left;
-  border: 1px solid black;
+  border: 1px solid brown;
 }
 .two{
   float: right;
-  border: 1px solid black;
-
+  border: 1px solid brown;
 }
 .three{
   float: right;
-  border: 1px solid black;
-
+  border: 1px solid brown;
+  
 }
 
-
+  
+}
