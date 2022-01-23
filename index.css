@@ -21,7 +21,7 @@ h4{
   margin: 50px;}
  
 
-/* section 2 styling*/
+/* section 1 styling*/
 div.cont{
   display: flex;
   border: 1px solid black;
@@ -46,7 +46,7 @@ div.left{
 }
 
 
-/*section 3 styling*/
+/*section 2 styling*/
 .cont2{
   text-align: center;
   display: flex;
@@ -72,6 +72,62 @@ div.left{
   width: 33.3%;
   margin-left: 0%;  
 }
+/*section 3 styling*/
 
-  
+#menu{
+  font-weight: 800;
+  border: 1px solid black;  
+ }
+
+.cont3{  
+  text-align: center;
+  display: flex;
 }
+ 
+.menu1{
+  float: left;
+  border: 1px solid brown;
+  width: 33.3%;  
+  margin-right: 0px;  
+}
+
+.menu2{
+  float: left;
+  border: 1px solid brown;
+  width: 33.3%;  
+  margin-right: 0px; 
+}
+
+.menu3{
+  float: right;
+  border: 1px solid brown;
+  width: 33.3%;
+  margin-left: 0%;  
+  }
+
+  .cont4{  
+    text-align: center;
+    display: flex;
+  }
+   
+  .menu4{
+    float: left;
+    border: 1px solid brown;
+    width: 33.3%;  
+    margin-right: 0px;  
+  }
+  
+  .menu5{
+    float: left;
+    border: 1px solid brown;
+    width: 33.3%;  
+    margin-right: 0px; 
+  }
+  
+  .menu6{
+    float: right;
+    border: 1px solid brown;
+    width: 33.3%;
+    margin-left: 0%;  
+    }
+
