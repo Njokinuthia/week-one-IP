@@ -155,5 +155,31 @@ div.left{
   padding-bottom: 10%;
 }
 
+/*section 5 apps mobile styling*/
+.cont5{
+  text-align: center;
+  display: flex;
+  background-color: gainsboro;
+}
+
+.apps1{
+  float: left;
+  border: 1px solid brown;
+  width: 33.3%;  
+  margin-right: 0px;
+  
+}
+.apps2{
+  float: left;
+  border: 1px solid brown;
+  width: 33.30%;
+  margin-right: 0%; 
+}
+.apps3{
+  float: right;
+  border: 1px solid brown;
+  width: 33.3%;
+  margin-left: 0%;  
+}
   
 
