@@ -219,7 +219,30 @@ div.left{
   border: 1px solid black;
   padding-right: 100px;
 }
+/*footer styling*/
+.footer{
+  display: flex;
+  margin-top: 50px;
+}
+.x{
+  float: left;
+  width: 33.3%;  
+  margin-right: 0px;
+  text-align: center;
+  
+}
+.y{
+  float: left;
+  width: 33.30%;
+  margin-right: 0%; 
+  text-align: center;}
 
+.z{
+  float: right;
+  width: 33.3%;
+  margin-left: 0%; 
+  text-align: center;}
+   
   
 
   
