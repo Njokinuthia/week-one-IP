@@ -101,23 +101,29 @@ div.left{
  
 .menu1{
   float: left;
-  border: 1px solid brown;
-  width: 33.3%;  
-  margin-right: 0px;  
+  border: 1px solid black;
+  width: 33.3%; 
+  margin: 20px; 
+  border-radius: 5%; 
+   
 }
 
 .menu2{
   float: left;
-  border: 1px solid brown;
-  width: 33.3%;  
-  margin-right: 0px; 
+  border: 1px solid black;
+  width: 33.3%;
+  margin: 20px; 
+  border-radius: 5%;  
+   
 }
 
 .menu3{
   float: right;
-  border: 1px solid brown;
+  border: 1px solid black;
   width: 33.3%;
-  margin-left: 0%;  
+  margin: 20px; 
+  border-radius: 5%;
+   
   }
 
   .cont4{  
@@ -128,22 +134,28 @@ div.left{
   .menu4{
     float: left;
     border: 1px solid black;
-    width: 33.3%;  
-    margin-right: 0px;  
+    width: 33.3%; 
+    margin: 20px; 
+  border-radius: 5%; 
+    
   }
   
   .menu5{
     float: left;
     border: 1px solid black;
-    width: 33.3%;  
-    margin-right: 0px; 
+    width: 33.3%; 
+    margin: 20px; 
+  border-radius: 5%; 
+     
   }
   
   .menu6{
     float: right;
     border: 1px solid black;
     width: 33.3%;
-    margin-left: 0%;  
+    margin: 20px; 
+  border-radius: 5%;
+      
     }
 
 /*NB:::::section 4 double decker styling*/    
