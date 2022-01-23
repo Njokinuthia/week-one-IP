@@ -9,39 +9,37 @@ body{
 
 /*header styling*/
 div.yellow{
-    height: 230vh;
+    height: vh;
   /*background:linear-gradient(105deg white 25% yellow 25% ) */
   }
 
 div.header{
-  display: flex; 
-}
+  display: flex;}
 
 div.top{
-  float: left;
-}
-h2{
- 
+  float: left;}
 
+h2{
   display: inline; 
   font-weight: 800; 
   font-style: italic;}
+
 span{
   color: yellow;}
+
 div.inline{
   display: inline;
   float: left;
   margin-top: 3%;
-  margin-left: 40%;
-  
-}
+  margin-left: 40%;}
 
 h4{
   display: inline;  
   margin: 50px;}
+
  
 
-/* section 1 styling*/
+/* SECTION 1 styling*/
 div.cont{
   display: flex;
   width: 100%; 
@@ -70,11 +68,8 @@ div.lefty{
   display: flex;
   background-color: #eff7f6;  
   margin-top: 20px;
-  padding-top: 20px;
-  
-  border: 1px solid black; 
-  
-}
+  padding-top: 20px;  
+  border: 1px solid black; }
 
 .one{
   float: left;
@@ -96,9 +91,10 @@ div.lefty{
   border: 1px solid black;
   width: 33.3%;
      margin: 20px; 
-  border-radius: 5%; 
-  
+  border-radius: 5%;   
 }
+
+
 /*section 3 styling*/
 
 .title{
@@ -191,40 +187,26 @@ div.cont4{
   display: flex;  
   width: 100%;   
 }
-
 div.right{ 
-  float: left; 
-  margin-right: 20px; 
-  background-color: #eff7f6; 
-}
-div.left{
   float: left;  
+  width: 60%; 
+  background-color: #eff7f6; 
+  }
+div.left{
+  float: left; 
+  width: 40%; 
   background-color: #eff7f6;
-  text-align: left;
-  
+  text-align: left;  
+  padding-left: 10%;
+  padding-top: 20%;
 }
 img.right{
   width: 100%;
 }
- /*div.righty{
-  float: left;  
-  width: 50%; 
-  padding-right: 10%;  
-}
-div.lefty{
-  float: left; 
-  width: 50%; 
-  padding-top: 20%;
-  padding-left: 5%;}
- */ 
-
 .separate{
   padding-bottom: 0%;
   padding-top: 30%;
 }
-/*
-
-
 
 
 /*section 5 apps mobile styling*/
