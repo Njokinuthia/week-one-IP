@@ -44,15 +44,16 @@ h4{
 /* section 1 styling*/
 div.cont{
   display: flex;
-  width: 100%;   
+  width: 100%; 
+  border: 1px solid black; 
 }
 
-div.right{
+div.righty{
   float: left;  
   width: 50%; 
   padding-right: 10%;  
 }
-div.left{
+div.lefty{
   float: left; 
   width: 50%; 
   padding-top: 20%;
@@ -70,7 +71,8 @@ div.left{
   background-color: #eff7f6;  
   margin-top: 20px;
   padding-top: 20px;
-  padding-bottom: 20px;
+  
+  border: 1px solid black; 
   
 }
 
@@ -122,6 +124,7 @@ div.left{
 .cont3{  
   text-align: center;
   display: flex;
+  border: 1px solid black; 
 }
  
 .menu1{
@@ -153,6 +156,7 @@ div.left{
   .cont4{  
     text-align: center;
     display: flex;
+    border: 1px solid black; 
   }
    
   .menu4{
@@ -184,26 +188,38 @@ div.left{
 
 /*NB:::::section 4 double decker styling*/    
 div.cont4{
-  display: flex;
-  border: 1px solid black; 
-  width: 100%; 
+  display: flex;  
+  width: 100%;   
 }
 
 div.right{ 
   float: left; 
   margin-right: 20px; 
-  border: 1px solid black;
-
-  
+  background-color: #eff7f6; 
 }
 div.left{
   float: left;  
-  border: 1px solid black;
-}
+  background-color: #eff7f6;
+  text-align: left;
   
+}
+img.right{
+  width: 100%;
+}
+ /*div.righty{
+  float: left;  
+  width: 50%; 
+  padding-right: 10%;  
+}
+div.lefty{
+  float: left; 
+  width: 50%; 
+  padding-top: 20%;
+  padding-left: 5%;}
+ */ 
 
 .separate{
-  padding-bottom: 50%;
+  padding-bottom: 0%;
   padding-top: 30%;
 }
 /*
@@ -215,7 +231,8 @@ div.left{
 .cont5{
   text-align: center;
   display: flex;
-  background-color: #F6B400    
+  background-color: #F6B400  
+    
 }
 .apps1{
   float: left; 
