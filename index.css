@@ -131,3 +131,29 @@ div.left{
     margin-left: 0%;  
     }
 
+/*section 4 double decker styling*/    
+div.cont4{
+  display: flex;
+  border: 1px solid black;
+  width: 100%; 
+}
+
+div.right{
+  float: left;  
+  width: 50%; 
+  padding-right: 10%; 
+  margin-right: 15%;
+  margin-left: 5%;
+}
+div.left{
+  float: left; 
+  width: 40%; 
+  padding-top: 15%;
+  padding-left: 5%;}
+
+.separate{
+  padding-bottom: 10%;
+}
+
+  
+
