@@ -2,7 +2,7 @@ body{
    
   margin: 30px;
   font-style: "poppins";
-  border: 1px solid black;  
+   
 
 }
   
@@ -43,7 +43,7 @@ h4{
 div.cont{
   display: flex;
   width: 100%; 
-  border: 1px solid black; 
+  
 }
 
 div.righty{
@@ -68,8 +68,7 @@ div.lefty{
   display: flex;
   background-color: #eff7f6;  
   margin-top: 20px;
-  padding-top: 20px;  
-  border: 1px solid black; }
+  padding-top: 20px; }
 
 .one{
   float: left;
@@ -120,7 +119,7 @@ div.lefty{
 .cont3{  
   text-align: center;
   display: flex;
-  border: 1px solid black; 
+  
 }
  
 .menu1{
@@ -152,7 +151,7 @@ div.lefty{
   .cont4{  
     text-align: center;
     display: flex;
-    border: 1px solid black; 
+    b
   }
    
   .menu4{
