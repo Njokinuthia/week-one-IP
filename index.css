@@ -181,5 +181,31 @@ div.left{
   width: 33.3%;
   margin-left: 0%;  
 }
+
+/* Bottom section styling*/
+.bottom{
+  text-align: center;
+  display: flex;
+  
+}
+
+.logo{
+  float: left;
+  border: 1px solid brown;
+  width: 33.3%;  
+  margin-right: 0px;
+  
+}
+.sitemap{
+  float: left;
+  border: 1px solid brown;
+  width: 33.30%;
+  margin-right: 0%; 
+}
+.newletter{
+  float: right;
+  border: 1px solid brown;
+  width: 33.3%;
+  margin-left: 0%;  
   
 
