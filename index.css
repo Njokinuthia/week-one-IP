@@ -61,26 +61,31 @@ div.left{
   text-align: center;
   display: flex;
   background-color: gainsboro;
+  
 }
 
 .one{
   float: left;
   border: 1px solid brown;
   width: 33.3%;  
-  margin-right: 0px;
-  
+  margin: 20px; 
+  border-radius: 5%;
 }
 .two{
   float: left;
   border: 1px solid brown;
   width: 33.30%;
-  margin-right: 0%; 
+  margin: 5;
+  border-radius: 5%;
+  
 }
 .three{
   float: right;
   border: 1px solid brown;
   width: 33.3%;
-  margin-left: 0%;  
+     margin: 20px; 
+  border-radius: 5%; 
+  
 }
 /*section 3 styling*/
 
@@ -141,29 +146,34 @@ div.left{
     margin-left: 0%;  
     }
 
-/*section 4 double decker styling*/    
+/*NB:::::section 4 double decker styling*/    
 div.cont4{
   display: flex;
   border: 1px solid black;
   width: 100%; 
 }
 
-div.right{
-  float: left;  
-  width: 50%; 
-  padding-right: 10%; 
-  margin-right: 15%;
-  margin-left: 5%;
+div.right{ 
+  float: left; 
+  margin-right: 20px; 
+  border: 1px solid black;
+
+  
 }
 div.left{
-  float: left; 
-  width: 40%; 
-  padding-top: 15%;
-  padding-left: 5%;}
+  float: left;  
+  border: 1px solid black;
+}
+  
 
 .separate{
-  padding-bottom: 10%;
+  padding-bottom: 50%;
+  padding-top: 30%;
 }
+/*
+
+
+
 
 /*section 5 apps mobile styling*/
 .cont5{
@@ -177,7 +187,12 @@ div.left{
   margin-right: 0px; 
   padding-top: 100px;  
 }
-
+div.space{
+  padding-bottom: 0px;
+}
+#white{
+  background-color: white;
+}
 
 
 .apps2{
