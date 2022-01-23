@@ -4,6 +4,15 @@ body{
   font-style: "poppins";}
 
 /*header styling*/
+div.header{
+  display: flex;
+  border: 1px solid black;
+  
+  background: linear-gradient(105deg,green 25% yellow 25%)
+}
+div.top{
+  float: left;
+}
 h2{
   display: inline; 
   font-weight: 800; 
@@ -12,8 +21,9 @@ span{
   color: yellow;}
 div.inline{
   display: inline;
-  float: right;
+  float: left;
   margin-top: 3%;
+  margin-left: 40%;
 }
 
 h4{
@@ -183,29 +193,34 @@ div.left{
 }
 
 /* Bottom section styling*/
-.bottom{
-  text-align: center;
+.bottom{  
   display: flex;
   
 }
 
 .logo{
-  float: left;
-  border: 1px solid brown;
+  text-align: left;
+  float: left; 
   width: 33.3%;  
   margin-right: 0px;
+  padding-top: 50px;
   
 }
 .sitemap{
+  text-align: left;
   float: left;
-  border: 1px solid brown;
   width: 33.30%;
   margin-right: 0%; 
 }
-.newletter{
-  float: right;
-  border: 1px solid brown;
-  width: 33.3%;
-  margin-left: 0%;  
+.a{
+  display: flex;
+}
+.email{
+  border: 1px solid black;
+  padding-right: 100px;
+}
+
+  
+
   
 
