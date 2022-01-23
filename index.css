@@ -169,33 +169,36 @@ div.left{
 .cont5{
   text-align: center;
   display: flex;
-  background-color: gainsboro;
+  background-color: rgb(243, 172, 19)  
+}
+.apps1{
+  float: left; 
+  width: 60%;  
+  margin-right: 0px; 
+  padding-top: 100px;  
 }
 
-.apps1{
-  float: left;
-  border: 1px solid brown;
-  width: 33.3%;  
-  margin-right: 0px;
+
+
+.apps2{
+  float: left;  
+  width: 20%;
+  margin-right: 0%; 
+  padding-left: 100px;
   
 }
-.apps2{
-  float: left;
-  border: 1px solid brown;
-  width: 33.30%;
-  margin-right: 0%; 
-}
+
 .apps3{
-  float: right;
-  border: 1px solid brown;
-  width: 33.3%;
+  float: right;  
+  width: 20%;
   margin-left: 0%;  
+  padding-right: 100px;
 }
 
 /* Bottom section styling*/
 .bottom{  
   display: flex;
-  
+  background-color: #eff7f6;  
 }
 
 .logo{
